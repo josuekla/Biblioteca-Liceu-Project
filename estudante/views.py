@@ -8,5 +8,4 @@ def home(request):
                  'estudante/home.index',
                   context )
 
-def categorias(request):
 

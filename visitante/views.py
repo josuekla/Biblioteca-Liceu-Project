@@ -45,7 +45,8 @@ def visitante(request):
     return render(
         request,
         'visitante/home.index',
-        context
+        context,
+        content_type=
     )
 
 

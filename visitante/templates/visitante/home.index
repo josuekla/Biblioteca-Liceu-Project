@@ -1,7 +1,19 @@
 {% extends "global/base.html" %}
 
+<main>
 {% block content %}
-<h1>Bem-vindo ao meu site!</h1>
-{% include "globa/base/partials/carrosel_livros.html" %}
-{% endblock %}
-
+<nav>
+    <div class="content-categorias">
+        <ul>
+            <li><a href="{% url 'categoria' 'fantasia' %}">Fantasia</a></li>
+            <li><a href="{% url 'categoria' 'poema' %}">Poema</a></li>
+            <li><a href="{% url 'categoria' 'comedia' %}">Comédia</a></li>
+            <li><a href="{% url 'categoria' 'terror' %}">Terror</a></li>
+            <li><a href="{% url 'categoria' 'romance' %}">Romance</a></li>
+            <li><a href="{% url 'categoria' 'acao' %}">Ação</a></li>
+            <li><a href="{% url 'categoria' 'suspense' %}">Suspense</a></li>
+        </ul>
+    </div>
+</nav>
+{% endblock content %}
+</main>

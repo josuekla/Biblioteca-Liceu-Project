@@ -22,4 +22,5 @@ urlpatterns = [
     path('visitante/', include('visitante.urls')),
     path('estudante/', include('estudante.urls')),
     path('biblioteca_admin/', include('biblioteca_admin.urls')),
+    path('categorias/', include('categorias.urls'))
 ]

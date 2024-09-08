@@ -1,9 +1,12 @@
 from django.urls import path
-from biblioteca_admin import views
-
+from . import views
 
 app_name = 'biblioteca_admin'
 
+
 urlpatterns = [
-    path('', views.biblioteca_admin, name='biblioteca_admin'),
+    path('', views.visitante),
+    path('home', views.visitante),
+    path('categorias', views.visitante),
+    path('emprestar', views.visitante),
 ]
