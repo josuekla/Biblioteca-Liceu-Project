@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def bilioteca_admin(request):
+    print("Admin Funcionando!")
+
