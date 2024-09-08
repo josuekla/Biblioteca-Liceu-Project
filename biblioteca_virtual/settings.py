@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'biblioteca_admin',
     'estudante',
     'visitante',
+    'categorias'
+    
 
     
 ]

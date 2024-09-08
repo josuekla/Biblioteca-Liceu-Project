@@ -1,8 +1,85 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def visitante(request):
     print("visitante Funcionando!")
-    return HttpResponse("test")
+    
+    context = {
+        'title' : 'visitante',
+        'content' : 'test',
+        
+    }
+
+    return render(
+        request,
+        'visitante/home.index',
+        context
+    )
+
+
+def visitante(request):
+    print("visitante Funcionando!")
+    
+    context = {
+        'title' : 'visitante',
+        'content' : 'test',
+        
+    }
+
+    return render(
+        request,
+        'visitante/home.index',
+        context
+    )
+
+
+
+def visitante(request):
+    print("visitante Funcionando!")
+    
+    context = {
+        'title' : 'visitante',
+        'content' : 'test',
+        
+    }
+
+    return render(
+        request,
+        'visitante/home.index',
+        context
+    )
+
+
+
+def visitante(request):
+    print("visitante Funcionando!")
+    
+    context = {
+        'title' : 'visitante',
+        'content' : 'test',
+        
+    }
+
+    return render(
+        request,
+        'visitante/home.index',
+        context
+    )
+
+
+
+def visitante(request):
+    print("visitante Funcionando!")
+    
+    context = {
+        'title' : 'visitante',
+        'content' : 'test',
+        
+    }
+
+    return render(
+        request,
+        'visitante/home.index',
+        context
+    )
 
 

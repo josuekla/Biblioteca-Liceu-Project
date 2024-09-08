@@ -1,5 +1,12 @@
 from django.shortcuts import render
 
-def estudante(request):
-    print("estudante Funcionando!")
+def home(request):
+    context = {
+        'title': 'estudante'
+    }
+    return render(request,
+                 'estudante/home.index',
+                  context )
+
+def categorias(request):
 
